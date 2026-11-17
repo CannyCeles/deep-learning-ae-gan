@@ -14,7 +14,7 @@
     "Vanilla AE": {
       "latent_dim": 64,
       "train_time_per_epoch_s": 1.247,
-      "latency_ms": 0.117,
+      "latency_ms": 0.127,
       "mse": 0.006387215573340654,
       "psnr": 23.069475173950195,
       "ssim": 0.7919896245002747,
@@ -23,7 +23,7 @@
     "Sparse AE": {
       "latent_dim": 256,
       "train_time_per_epoch_s": 1.346,
-      "latency_ms": 0.133,
+      "latency_ms": 0.145,
       "mse": 0.006936703808605671,
       "psnr": 22.66019630432129,
       "ssim": 0.7777045965194702,
@@ -34,7 +34,7 @@
     "VAE": {
       "latent_dim": 64,
       "train_time_per_epoch_s": 1.595,
-      "latency_ms": 0.138,
+      "latency_ms": 0.09,
       "mse": 0.012980736792087555,
       "psnr": 19.69643211364746,
       "ssim": 0.6535866856575012,
@@ -43,7 +43,7 @@
     "Vanilla GAN": {
       "latent_dim": 64,
       "train_time_per_epoch_s": 1.648,
-      "latency_ms": 0.209,
+      "latency_ms": 0.191,
       "mse": null,
       "psnr": null,
       "ssim": null,
@@ -52,7 +52,7 @@
     "DCGAN": {
       "latent_dim": 100,
       "train_time_per_epoch_s": 4.701,
-      "latency_ms": 1.32,
+      "latency_ms": 1.346,
       "mse": null,
       "psnr": null,
       "ssim": null,
@@ -61,7 +61,7 @@
     "DDPM": {
       "latent_dim": "28x28",
       "train_time_per_epoch_s": 25.175,
-      "latency_ms": 2320.521,
+      "latency_ms": 2318.094,
       "mse": null,
       "psnr": null,
       "ssim": null,
