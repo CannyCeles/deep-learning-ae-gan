@@ -14,7 +14,7 @@
     "Vanilla AE": {
       "latent_dim": 64,
       "train_time_per_epoch_s": 1.247,
-      "latency_ms": 0.109,
+      "latency_ms": 0.117,
       "mse": 0.006387215573340654,
       "psnr": 23.069475173950195,
       "ssim": 0.7919896245002747,
@@ -23,7 +23,7 @@
     "Sparse AE": {
       "latent_dim": 256,
       "train_time_per_epoch_s": 1.346,
-      "latency_ms": 0.123,
+      "latency_ms": 0.133,
       "mse": 0.006936703808605671,
       "psnr": 22.66019630432129,
       "ssim": 0.7777045965194702,
@@ -34,7 +34,7 @@
     "VAE": {
       "latent_dim": 64,
       "train_time_per_epoch_s": 1.595,
-      "latency_ms": 0.089,
+      "latency_ms": 0.138,
       "mse": 0.012980736792087555,
       "psnr": 19.69643211364746,
       "ssim": 0.6535866856575012,
@@ -43,7 +43,7 @@
     "Vanilla GAN": {
       "latent_dim": 64,
       "train_time_per_epoch_s": 1.648,
-      "latency_ms": 0.156,
+      "latency_ms": 0.209,
       "mse": null,
       "psnr": null,
       "ssim": null,
@@ -52,7 +52,7 @@
     "DCGAN": {
       "latent_dim": 100,
       "train_time_per_epoch_s": 4.701,
-      "latency_ms": 1.36,
+      "latency_ms": 1.32,
       "mse": null,
       "psnr": null,
       "ssim": null,
@@ -61,7 +61,7 @@
     "DDPM": {
       "latent_dim": "28x28",
       "train_time_per_epoch_s": 25.175,
-      "latency_ms": 2330.555,
+      "latency_ms": 2320.521,
       "mse": null,
       "psnr": null,
       "ssim": null,
@@ -160,6 +160,32 @@
         "mean": 0.036743152177994134,
         "std": 0.00016473403383612003
       }
+    }
+  },
+  "mlp_proof": {
+    "weight_row_offdiag_ratio": {
+      "W1": 0.9195538759231567,
+      "W2": 0.8658716678619385,
+      "W3": 0.4645734131336212
+    },
+    "stage3_transpose_from_z": {
+      "mse": 0.2684532105922699,
+      "psnr": 5.764155864715576,
+      "ssim": 0.08245152980089188
+    },
+    "stage4_frozen_decoder": {
+      "mse": 0.016565648838877678,
+      "psnr": 18.589054107666016,
+      "ssim": 0.6002083420753479
+    },
+    "vanilla_ae_reference": {
+      "mse": 0.006387215573340654,
+      "psnr": 23.069475173950195,
+      "ssim": 0.7919896245002747
+    },
+    "stage5_prior_sampling": {
+      "fid": 135.0146069512141,
+      "negative_fraction": 0.14767499268054962
     }
   }
 }
